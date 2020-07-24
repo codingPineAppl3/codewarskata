@@ -22,8 +22,7 @@ public class TimeFormatter {
  }
     
     public static String formatDuration(int seconds) {
-      
-      StringBuilder time = new StringBuilder();
+
       int rest = seconds;
       
       if(seconds == 0) 
